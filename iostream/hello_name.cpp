@@ -1,6 +1,5 @@
-// C++ string
+// C++ string  了解string类的简单使用，初识类与对象的功用。
 #include <iostream>
-
 #include <string>
 
 using namespace std;
