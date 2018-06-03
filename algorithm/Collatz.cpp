@@ -35,7 +35,7 @@ size_t iterative_Collatz(size_t n) {
 size_t memoized_Collatz(vector<size_t>& v, size_t n) {
 	// 前提 n > 0   每次计算的结果存在v[n]
 
-	// 防止n溢出
+	// 防止n溢出,所以先把n降下来
 	size_t L = 1;
 	while (n >= v.size()) {
 		n = (n%2 == 0) ? n/2 : 3*n + 1;
